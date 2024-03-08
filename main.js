@@ -15,10 +15,12 @@ function mySidebar() {
 let product1 = document.getElementById('pro1')
 let product2 = document.getElementById('pro2')
 let product3 = document.getElementById('pro3')
+let product4 = document.getElementById('pro4')
 
 product1.addEventListener('click', mybtn1)
 product2.addEventListener('click', mybtn1)
 product3.addEventListener('click', mybtn1)
+product4.addEventListener('click', mybtn1)
 
 let displayElement = document.getElementById('display');
 let displayElement2 = document.getElementById('display2');

@@ -230,7 +230,7 @@ h5{
     width: 100%;
     height: 100vh;
     text-align: center;
-
+    
 
 }
 #video {
@@ -247,6 +247,24 @@ h5{
     color: white;
 
 }
+
+.fbtn{
+    width: 186px;
+    height: 50px;
+    margin-right: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    cursor: pointer;
+    font-family: "Syne", sans-serif;
+    font-size: 18px;
+    position: absolute;
+    left: 600px;
+    margin-top: 450px;
+}
+
 
 @media only screen and (max-width: 768px){
     
@@ -349,4 +367,27 @@ h5{
         padding: 30px;
     }
  
+    #video{
+        display: none;
+    }
+
+    .footer{
+        height: 200px;
+}
+
+    .vidtxt{
+        text-align: center;
+        position: static;
+        font-size: 25px;
+        margin-top: 50px;
+    }
+
+    .fbtn{
+        position: static;
+        margin-top: 30px;
+        
+    }
+    .btns{
+        margin-bottom: 30px;
+    }
 }
