@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
-    background:url(images/pexels-rostislav-uzunov-5011647.jpg) ;
+    background:url(Media/pexels-rostislav-uzunov-5011647.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Syne", sans-serif;
@@ -119,7 +119,7 @@ h5{
 
 .products{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 50px;
     height: 80vh;
     /* background-color: white; */
@@ -223,6 +223,29 @@ h5{
     background-color: white;
     text-align: center;
     padding-top: 20px;
+    
+}
+
+.footer{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+
+
+}
+#video {
+    width: 100%; 
+    z-index: 100;
+
+}
+
+.vidtxt{
+    position: absolute;
+    left: 300px;
+    font-size: 80px;
+    margin-top: 300px;
+    color: white;
+
 }
 
 @media only screen and (max-width: 768px){
@@ -238,7 +261,7 @@ h5{
    }
    
    .logo{
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 20px;
    }
 
@@ -321,8 +344,8 @@ h5{
         display:grid;
         grid-template-columns: auto;
         gap: 50px;
-        height: 200vh;
-        background-color: black;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
         padding: 30px;
     }
  
